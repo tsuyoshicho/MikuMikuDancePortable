@@ -1,9 +1,23 @@
+MikuMikuDance Portable
+======================
+
+手順
+----
 (まだ作業中)
 
-各ランチャ作成環境をルートとして、PortableApps Launcherでランチャを作成
+* 各ランチャ作成環境をルートとして、PortableApps Launcherでランチャを作成
+* リリース環境に実行ファイル両方をコピー
+* MMD/MMDx64 ...をリリース環境に以下のように配置
+* リリース環境をルートとして、PortableApps Installerでインストーラを作成
 
-リリース環境に実行ファイル両方をコピー
+* インストーラがルートにできる
 
-MMD/MMDx64 ...をリリース環境に以下のように配置
+ディレクトリ構成
+----------------
 
-リリース環境をルートとして、PortableApps Installerでインストーラを作成
+- (root)
+    - Installer Env.(32/64)
+        - App
+    - Release Env.
+        - App
+
