@@ -12,12 +12,13 @@ http://goo.gl/FgvhD
 
 手順
 ----
+0. PortableAppsからInstaller,Launcher,NSISが必要になるので、セットアップしておく。
 1. 各ランチャ作成環境をルートとして、PortableApps Launcherでランチャを作成。
-2. リリース環境に実行ファイル両方をコピー(help.htmlはどちらかのでよい)
-3. MMD/MMDx64/MME/DxOpenNI/MoggDxOpenNIをリリース環境にツリーにあるように配置(readmeなど)、実行ファイル自体はMikuMikuDance/MikuMikuDancex64にセットする、ただし現状ではユーザーモデルは入れない(UserFileディレクトリごと入れない)
-4. EULA.txt/help.htmlの記述を入れるを更新。ツールのReadmeから転写
-5. リリース環境をルートとして、PortableApps Installerでインストーラを作成
-6. インストーラがルートにできる
+2. リリース環境に実行ファイル両方をコピー。
+3. MMD/MMDx64/MME/DxOpenNI/MoggDxOpenNIをリリース環境にツリーにあるように配置(readmeなど)、実行ファイル自体はMikuMikuDance/MikuMikuDancex64にセットする、ただし現状ではユーザーモデルは入れない(UserFileディレクトリごと入れない)。
+4. EULA.txt/help.htmlの記述を更新。ツールのReadmeから転写。
+5. リリース環境をルートとして、PortableApps Installerでインストーラを作成。
+6. インストーラがルートにできる。
 
 ディレクトリ構成
 ----------------
