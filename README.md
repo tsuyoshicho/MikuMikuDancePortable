@@ -1,4 +1,4 @@
-MikuMikuDance Portable
+﻿MikuMikuDance Portable
 ======================
 
 ターゲットバージョン
@@ -10,11 +10,12 @@ MikuMikuDance Portable
 ----
 (まだ作業中)
 
-1. 各ランチャ作成環境をルートとして、PortableApps Launcherでランチャを作成。その際、HTMLでhelp.htmlを生成するため、Release Env.にあるELUAを最新に更新して、Appinfoフォルダに配置すること
+1. 各ランチャ作成環境をルートとして、PortableApps Launcherでランチャを作成。
 2. リリース環境に実行ファイル両方をコピー(help.htmlはどちらかのでよい)
-3. MMD/MMDx64/MME/DxOpenNI/MoggDxOpenNIをリリース環境にツリーにあるように配置(readmeなど)、実行ファイル自体はMikuMikuDance/MikuMikuDancex64にセットする、またユーザーモデルは入れない(UserFileディレクトリも)
-4. リリース環境をルートとして、PortableApps Installerでインストーラを作成
-5. インストーラがルートにできる
+3. MMD/MMDx64/MME/DxOpenNI/MoggDxOpenNIをリリース環境にツリーにあるように配置(readmeなど)、実行ファイル自体はMikuMikuDance/MikuMikuDancex64にセットする、ただし現状ではユーザーモデルは入れない(UserFileディレクトリごと入れない)
+4. EULA.txt/help.htmlの記述を入れるを更新。ツールのReadmeから転写
+5. リリース環境をルートとして、PortableApps Installerでインストーラを作成
+6. インストーラがルートにできる
 
 ディレクトリ構成
 ----------------
