@@ -1,14 +1,12 @@
 MikuMikuDance Portable
 ======================
 
-バイナリ公開URL
----------------
-http://goo.gl/FgvhD
-
 現在のターゲットバージョン
 --------------------------
-* MikuMikuDance 7.39m
+* MikuMikuDance Ver.7.39m
 * MikuMikuDance x64 上記と同時更新されたもの
+* MME Ver.0.35
+* MoggDxOpenNI Ver.0.5.6
 
 手順
 ----
@@ -57,4 +55,16 @@ http://goo.gl/FgvhD
             └─MoggDxOpenNI
 </pre>
 
-EOF
+オリジナル作者様URL
+-------------------
+* MMD 樋口M氏 http://www.geocities.jp/higuchuu4/index.htm
+* MME 舞力介入P氏 http://www6.atwiki.jp/vpvpwiki/pages/219.html (MMEダウンロードURL)
+* MoggOpenNI Mogg氏 https://sites.google.com/site/moggproject/
+* ロゴ donburiroom氏 http://www.nicovideo.jp/user/2842434
+* (参考)各種モデル VPVPwiki http://www6.atwiki.jp/vpvpwiki
+
+リポジトリ公開者によるバイナリ公開URL(MMDのルールにより非推奨)
+--------------------------------------------------------------
+https://drive.google.com/folderview?id=0B0YTfSPDI7f6X2dfZ1lTQTJ4OEk&usp=sharing
+短縮URL http://goo.gl/FgvhD
+
