@@ -55,6 +55,17 @@ MikuMikuDance Portable
             └─MoggDxOpenNI
 </pre>
 
+補足情報
+--------
+* MMDにおいて、ユーザーモデルのディレクトリ探索順序は
+  1. ファイル名からUserFileという文字以降を、MMDがあるフォルダ下のUserFileのpathに足した場所を探す 
+  2. デフォルトフォルダを探す 
+  3. 絶対path
+  
+  として探すので、意図的に削除する仕様
+* VCのランタイムは同梱していないので、PAsアプリとしては起動しない場合がある(制限)
+
+
 オリジナル作者様URL
 -------------------
 * MMD 樋口M氏 http://www.geocities.jp/higuchuu4/index.htm
@@ -63,8 +74,8 @@ MikuMikuDance Portable
 * ロゴ donburiroom氏 http://www.nicovideo.jp/user/2842434
 * (参考)各種モデル VPVPwiki http://www6.atwiki.jp/vpvpwiki
 
-リポジトリ公開者によるバイナリ公開URL(MMDのルールにより非推奨)
---------------------------------------------------------------
-https://drive.google.com/folderview?id=0B0YTfSPDI7f6X2dfZ1lTQTJ4OEk&usp=sharing
-短縮URL http://goo.gl/FgvhD
+リポジトリ公開者によるバイナリ公開URL(あまり推奨しません)
+---------------------------------------------------------
+短縮URL http://goo.gl/FgvhD ( https://drive.google.com/folderview?id=0B0YTfSPDI7f6X2dfZ1lTQTJ4OEk&usp=sharing )
+
 
