@@ -3,8 +3,8 @@ MikuMikuDance Portable
 
 現在のターゲットバージョン
 --------------------------
-* MikuMikuDance Ver.7.39m
-* MikuMikuDance x64 上記と同時更新されたもの
+* MikuMikuDance Ver.7.96
+* MikuMikuDance x64 Ver.7.96
 * MME Ver.0.35
 * MoggDxOpenNI Ver.0.5.6
 
