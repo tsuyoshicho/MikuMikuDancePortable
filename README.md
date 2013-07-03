@@ -3,9 +3,9 @@ MikuMikuDance Portable
 
 現在のターゲットバージョン
 --------------------------
-* MikuMikuDance Ver.7.96
-* MikuMikuDance x64 Ver.7.96
-* MME Ver.0.35
+* MikuMikuDance Ver.7.98
+* MikuMikuDance x64 Ver.7.98
+* MME Ver.0.36
 * MoggDxOpenNI Ver.0.5.6
 
 手順
@@ -41,13 +41,16 @@ MikuMikuDance Portable
     │  │  └─Launcher
     │  ├─DefaultData
     │  ├─MikuMikuDance
+    │  │  ├─Data
+    │  │  │  └─(ja)
     │  │  ├─DxOpenNI
     │  │  ├─MMD
     │  │  ├─MME
     │  │  └─MoggDxOpenNI
     │  └─MikuMikuDancex64
-    │      ├─MMD
-    │      └─MME
+    │     ├─Data
+    │     ├─MMD
+    │     └─MME
     ├─Data
     └─Other
         └─Source
