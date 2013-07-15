@@ -12,7 +12,7 @@ MikuMikuDance Portable
 ----
 0. PortableAppsからInstaller,Launcher,NSISが必要になるので、セットアップしておく。
 1. 各ランチャ作成環境をルートとして、PortableApps Launcherでランチャを作成。
-2. リリース環境に実行ファイル両方をコピー。
+2. リリース環境に実行ファイル両方をコピー。(一度作成しておけば更新されないかぎりはそのままでよい)
 3. MMD/MMDx64/MME/DxOpenNI/MoggDxOpenNIをリリース環境にツリーにあるように配置(readmeなど)、実行ファイル自体はMikuMikuDance/MikuMikuDancex64にセットする、ただし現状ではユーザーモデルは入れない(UserFileディレクトリごと入れない)。
 4. EULA.txt/help.htmlの記述を更新。ツールのReadmeから転写。
 5. リリース環境をルートとして、PortableApps Installerでインストーラを作成。
