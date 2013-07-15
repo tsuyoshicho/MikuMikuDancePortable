@@ -23,13 +23,13 @@ MikuMikuDance Portable
 
 <pre>
 (root)
-├─Installer Environment 32bit
+├─Launcher Environment 32bit
 │  └─App
 │      ├─AppInfo
 │      │  └─Launcher
 │      ├─DefaultData
 │      └─MikuMikuDance
-├─Installer Environment 64bit
+├─Launcher Environment 64bit
 │  └─App
 │      ├─AppInfo
 │      │  └─Launcher
