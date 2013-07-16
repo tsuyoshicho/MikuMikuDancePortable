@@ -1,5 +1,12 @@
-MikuMikuDance Portable
+﻿MikuMikuDance Portable
 ======================
+
+Licence
+-------
+
+Launcher/Installer
+GPLv3
+
 
 現在のターゲットバージョン
 --------------------------
