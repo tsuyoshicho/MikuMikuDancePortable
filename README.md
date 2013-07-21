@@ -10,8 +10,8 @@ GPLv3
 
 現在のターゲットバージョン
 --------------------------
-* MikuMikuDance Ver.7.98
-* MikuMikuDance x64 Ver.7.98
+* MikuMikuDance Ver.8.03
+* MikuMikuDance x64 Ver.8.03
 * MME Ver.0.36
 * MoggDxOpenNI Ver.0.5.6
 
