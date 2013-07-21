@@ -1,0 +1,3 @@
+﻿<h1>GNU LESSER GENERAL PUBLIC LICENSE</h1>
+<hr>
+<p>See <a href="App/MikuMikuDance/DxOpenNI/LGPL.txt">GNU LESSER GENERAL PUBLIC LICENSE</a> Document</p>
