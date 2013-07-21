@@ -1,0 +1,8 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="MikuMikuDance">
+<meta name="description" content="MikuMikuDance Readme Document">
+<title>MikuMikuDance Readme</title>
+</head>
+<body>

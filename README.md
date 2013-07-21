@@ -7,6 +7,9 @@ Licence
 Launcher/Installer
 GPLv3
 
+nkf32
+zlib/libpng License
+http://hp.vector.co.jp/authors/VA007219/
 
 現在のターゲットバージョン
 --------------------------
