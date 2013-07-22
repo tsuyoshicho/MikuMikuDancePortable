@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="MikuMikuDancePortable : Setup Environment for MikuMikuDance Portable (PortableApps.com style)" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>MikuMikuDancePortable</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/tsuyoshicho/MikuMikuDancePortable">View on GitHub</a>
+
+          <h1 id="project_title">MikuMikuDancePortable</h1>
+          <h2 id="project_tagline">Setup Environment for MikuMikuDance Portable (PortableApps.com style)</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/tsuyoshicho/MikuMikuDancePortable/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/tsuyoshicho/MikuMikuDancePortable/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="mikumikudance-portable" class="anchor" href="#mikumikudance-portable"><span class="octicon octicon-link"></span></a>MikuMikuDance Portable</h1>
+
+<h2>
+<a name="licence" class="anchor" href="#licence"><span class="octicon octicon-link"></span></a>Licence</h2>
+
+<p>Launcher/Installer
+GPLv3</p>
+
+<p>nkf32
+zlib/libpng License
+<a href="http://hp.vector.co.jp/authors/VA007219/">http://hp.vector.co.jp/authors/VA007219/</a></p>
+
+<h2>
+<a name="%E7%8F%BE%E5%9C%A8%E3%81%AE%E3%82%BF%E3%83%BC%E3%82%B2%E3%83%83%E3%83%88%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3" class="anchor" href="#%E7%8F%BE%E5%9C%A8%E3%81%AE%E3%82%BF%E3%83%BC%E3%82%B2%E3%83%83%E3%83%88%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3"><span class="octicon octicon-link"></span></a>現在のターゲットバージョン</h2>
+
+<ul>
+<li>MikuMikuDance Ver.8.03</li>
+<li>MikuMikuDance x64 Ver.8.03</li>
+<li>MME Ver.0.36</li>
+<li>MoggDxOpenNI Ver.0.5.6</li>
+</ul><h2>
+<a name="%E6%89%8B%E9%A0%86" class="anchor" href="#%E6%89%8B%E9%A0%86"><span class="octicon octicon-link"></span></a>手順</h2>
+
+<ol>
+<li>PortableAppsからInstaller,Launcher,NSISが必要になるので、セットアップしておく。</li>
+<li>各ランチャ作成環境をルートとして、PortableApps Launcherでランチャを作成。</li>
+<li>リリース環境に実行ファイル両方をコピー。(一度作成しておけば更新されないかぎりはそのままでよい)</li>
+<li>MMD/MMDx64/MME/DxOpenNI/MoggDxOpenNIをリリース環境にツリーにあるように配置(readmeなど)、実行ファイル自体はMikuMikuDance/MikuMikuDancex64にセットする、ただし現状ではユーザーモデルは入れない(UserFileディレクトリごと入れない)。</li>
+<li>EULA.txt/help.htmlの記述を更新。ツールのReadmeから転写。</li>
+<li>リリース環境をルートとして、PortableApps Installerでインストーラを作成。</li>
+<li>インストーラがルートにできる。</li>
+</ol><h2>
+<a name="%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%83%88%E3%83%AA%E6%A7%8B%E6%88%90" class="anchor" href="#%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%83%88%E3%83%AA%E6%A7%8B%E6%88%90"><span class="octicon octicon-link"></span></a>ディレクトリ構成</h2>
+
+<pre>
+(root)
+├─Launcher Environment 32bit
+│  └─App
+│      ├─AppInfo
+│      │  └─Launcher
+│      ├─DefaultData
+│      └─MikuMikuDance
+├─Launcher Environment 64bit
+│  └─App
+│      ├─AppInfo
+│      │  └─Launcher
+│      ├─DefaultData
+│      └─MikuMikuDancex64
+└─Release Environment
+    ├─App
+    │  ├─AppInfo
+    │  │  └─Launcher
+    │  ├─DefaultData
+    │  ├─MikuMikuDance
+    │  │  ├─Data
+    │  │  │  └─(ja)
+    │  │  ├─DxOpenNI
+    │  │  ├─MMD
+    │  │  ├─MME
+    │  │  └─MoggDxOpenNI
+    │  └─MikuMikuDancex64
+    │     ├─Data
+    │     ├─MMD
+    │     └─MME
+    ├─Data
+    └─Other
+        └─Source
+            ├─DxOpenNI
+            └─MoggDxOpenNI
+</pre>
+
+<h2>
+<a name="%E8%A3%9C%E8%B6%B3%E6%83%85%E5%A0%B1" class="anchor" href="#%E8%A3%9C%E8%B6%B3%E6%83%85%E5%A0%B1"><span class="octicon octicon-link"></span></a>補足情報</h2>
+
+<ul>
+<li>
+<p>MMDにおいて、ユーザーモデルのディレクトリ探索順序は</p>
+
+<ol>
+<li>ファイル名からUserFileという文字以降を、MMDがあるフォルダ下のUserFileのpathに足した場所を探す </li>
+<li>デフォルトフォルダを探す </li>
+<li>絶対path</li>
+</ol>
+<p>として探すので、意図的に削除する仕様</p>
+</li>
+<li><p>VCのランタイムは同梱していないので、PAsアプリとしては起動しない場合がある(制限)</p></li>
+</ul><h2>
+<a name="%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E4%BD%9C%E8%80%85%E6%A7%98url" class="anchor" href="#%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E4%BD%9C%E8%80%85%E6%A7%98url"><span class="octicon octicon-link"></span></a>オリジナル作者様URL</h2>
+
+<ul>
+<li>MMD 樋口M氏 <a href="http://www.geocities.jp/higuchuu4/index.htm">http://www.geocities.jp/higuchuu4/index.htm</a>
+</li>
+<li>MME 舞力介入P氏 <a href="http://www6.atwiki.jp/vpvpwiki/pages/219.html">http://www6.atwiki.jp/vpvpwiki/pages/219.html</a> (MMEダウンロードURL)</li>
+<li>MoggOpenNI Mogg氏 <a href="https://sites.google.com/site/moggproject/">https://sites.google.com/site/moggproject/</a>
+</li>
+<li>ロゴ donburiroom氏 <a href="http://www.nicovideo.jp/user/2842434">http://www.nicovideo.jp/user/2842434</a>
+</li>
+<li>(参考)各種モデル VPVPwiki <a href="http://www6.atwiki.jp/vpvpwiki">http://www6.atwiki.jp/vpvpwiki</a>
+</li>
+</ul><h2>
+<a name="%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E5%85%AC%E9%96%8B%E8%80%85%E3%81%AB%E3%82%88%E3%82%8B%E3%83%90%E3%82%A4%E3%83%8A%E3%83%AA%E5%85%AC%E9%96%8Burl%E3%81%82%E3%81%BE%E3%82%8A%E6%8E%A8%E5%A5%A8%E3%81%97%E3%81%BE%E3%81%9B%E3%82%93" class="anchor" href="#%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E5%85%AC%E9%96%8B%E8%80%85%E3%81%AB%E3%82%88%E3%82%8B%E3%83%90%E3%82%A4%E3%83%8A%E3%83%AA%E5%85%AC%E9%96%8Burl%E3%81%82%E3%81%BE%E3%82%8A%E6%8E%A8%E5%A5%A8%E3%81%97%E3%81%BE%E3%81%9B%E3%82%93"><span class="octicon octicon-link"></span></a>リポジトリ公開者によるバイナリ公開URL(あまり推奨しません)</h2>
+
+<p>短縮URL <a href="http://goo.gl/FgvhD">http://goo.gl/FgvhD</a> ( <a href="https://drive.google.com/folderview?id=0B0YTfSPDI7f6X2dfZ1lTQTJ4OEk&amp;usp=sharing">https://drive.google.com/folderview?id=0B0YTfSPDI7f6X2dfZ1lTQTJ4OEk&amp;usp=sharing</a> )</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">MikuMikuDancePortable maintained by <a href="https://github.com/tsuyoshicho">tsuyoshicho</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
