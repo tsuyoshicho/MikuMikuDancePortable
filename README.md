@@ -13,8 +13,8 @@ http://hp.vector.co.jp/authors/VA007219/
 
 現在のターゲットバージョン
 --------------------------
-* MikuMikuDance Ver.8.03
-* MikuMikuDance x64 Ver.8.03
+* MikuMikuDance Ver.8.04
+* MikuMikuDance x64 Ver.8.04
 * MME Ver.0.36
 * MoggDxOpenNI Ver.0.5.6
 
@@ -89,6 +89,4 @@ http://hp.vector.co.jp/authors/VA007219/
 
 リポジトリ公開者によるバイナリ公開URL(あまり推奨しません)
 ---------------------------------------------------------
-短縮URL http://goo.gl/FgvhD ( https://drive.google.com/folderview?id=0B0YTfSPDI7f6X2dfZ1lTQTJ4OEk&usp=sharing )
-
-
+https://github.com/tsuyoshicho/MikuMikuDancePortable/releases
