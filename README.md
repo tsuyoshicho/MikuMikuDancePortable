@@ -29,9 +29,11 @@ http://hp.vector.co.jp/authors/VA007219/
 6. インストーラがルートにできる。
 
 更新の場合
-1.README.mdの利用バージョンを更新
-2.appinfo.iniのアプリバージョン更新(一応Launcher Env.のそれぞれも)
-3.
+
+1. README.mdの利用バージョンを更新
+2. appinfo.iniのアプリバージョン更新(一応Launcher Env.のそれぞれも)
+3. ファイル配置
+4. release_doc_gen.bat実行(EULA.txtやhelp.html確認)
 
 ディレクトリ構成
 ----------------
