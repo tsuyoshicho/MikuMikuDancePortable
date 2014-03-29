@@ -13,7 +13,7 @@ http://hp.vector.co.jp/authors/VA007219/
 
 現在のターゲットバージョン
 --------------------------
-* MikuMikuDance Ver.8.04
+* MikuMikuDance Ver.9.08
 * MikuMikuDance x64 Ver.8.04
 * MME Ver.0.36
 * MoggDxOpenNI Ver.0.5.6
@@ -27,6 +27,11 @@ http://hp.vector.co.jp/authors/VA007219/
 4. EULA.txt/help.htmlの記述を更新。ツールのReadmeから転写。
 5. リリース環境をルートとして、PortableApps Installerでインストーラを作成。
 6. インストーラがルートにできる。
+
+更新の場合
+1.README.mdの利用バージョンを更新
+2.appinfo.iniのアプリバージョン更新(一応Launcher Env.のそれぞれも)
+3.
 
 ディレクトリ構成
 ----------------
