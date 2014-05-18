@@ -15,7 +15,7 @@ http://hp.vector.co.jp/authors/VA007219/
 --------------------------
 * MikuMikuDance Ver.9.10
 * MikuMikuDance x64 Ver.9.10
-* MME Ver.0.36
+* MME Ver.0.37
 * MoggDxOpenNI Ver.0.5.6
 
 手順
