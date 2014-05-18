@@ -13,8 +13,8 @@ http://hp.vector.co.jp/authors/VA007219/
 
 現在のターゲットバージョン
 --------------------------
-* MikuMikuDance Ver.9.08
-* MikuMikuDance x64 Ver.8.04
+* MikuMikuDance Ver.9.10
+* MikuMikuDance x64 Ver.9.10
 * MME Ver.0.36
 * MoggDxOpenNI Ver.0.5.6
 
