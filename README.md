@@ -1,6 +1,8 @@
 ﻿MikuMikuDance Portable
 ======================
 
+**This repository has been archived**
+
 Licence
 -------
 
